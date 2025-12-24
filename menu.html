@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="menu.css">
+
+    <!-- Swiper slider stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper slider script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Page title -->
+    <title>menu</title>
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- Start breaking news ticker -->
+    <div class="ticker">
+      <!-- Ticker label -->
+      <span class="ticker-label">خبر فوری</span>
+
+      <!-- Moving ticker content -->
+      <div class="ticker-move">
+        <span class="ticker-text">
+          اخبار ترافیک لحظه ای 29 آذر | بارش برف و باران در برخی محورهاامضای
+          تفاهم‌نامه پلیس راهور و سازمان ملی استاندارد برای کاهش تصادفات
+          رانندگیرزمایش طرح ترافیکی زمستان۱۴۰۴ (گزارش تصویری)کاهش تلفات رانندگي
+          نيازمند عزم ملي، تجهيز هوشمند و همکاري مردم استمشارکت بیش از ۹۱
+          هزارنفر در طرح ترافیکی زمستان ۱۴۰۴جلسه ارتباط مستقیم مردم با مسئولین
+          پلیس راهور فراجا برگزار شدلزوم ارتقاء کیفیت ایمنی خودروها /راه اندازی
+          اولین مرکز تست تصادف خودرو لزوم اصلاح نقاط حادثه خیز در جاده ها مطالبه
+          پلیس راهور به ثمر نشست / افتتاح نخستین مرکز تست تصادف کشور، گام مؤثر
+          در کاهش جانباختگان جاده‌ایسردار حسینی: فقط یک‌سوم سامانه‌های ثبت تخلف
+          شهری فعال‌اندرویداد تبادل فناوری در حوزه کارآفرینی و مدیریت ترافیک
+          (گزارش تصویری)آمادگی حداکثری پلیس راه در پی هشدار سطح قرمز سازمان
+          هواشناسی هشدار سطح قرمز هواشناسی و لزوم پرهیز از سرفرهای غیرضروریاهمیت
+          هوشمند سازی در کاهش تصادفات رانندگی آغاز شماره گذاری خودرو‌های وارداتی
+          با ۵ سال کارکرد در کیش
+        </span>
+      </div>
+    </div>
+    <!-- End breaking news ticker -->
+
+    <!-- Start top navigation bar -->
+    <div class="topnav">
+      <!-- Logo section -->
+      <span href="#home" class="active">
+        <img src="img\logo.jpg" alt width: 20%;>
+      </span>
+
+      <!-- Navigation links -->
+      <div id="myLinks">
+        <a href="#news">خبر</a>
+        <a href="#contact">تماس با ما</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس با ما</a>
+        <a href="#about">درباره ما</a>
+      </div>
+
+      <!-- Search box -->
+      <div class="search-container" tabindex="0">
+        <i class="fa fa-search" style="font-size:24px"></i>
+        <input type="text" class="search-input" placeholder="جستجو..." />
+      </div>
+
+      <!-- Mobile menu button -->
+      <!-- <a href="#" class="icon" id="menu-btn">☰ Menu</a> -->
+      <div>
+        <button id="openPopup" class="menu-btn">☰</button>
+        <div class="popup-overlay" id="popup">
+          <div class="popup">
+            <button class="close-btn" id="closePopup">×</button>
+
+            <ul class="popup-menu">
+              <li>خبر</li>
+              <li>درباره ما</li>
+              <li>تماس با ما</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- End top navigation bar -->
+
+    <!-- Main content container -->
+    <div class="container">
+
+      <!-- News list section -->
+      <div class="news-list">
+        <!-- News list header -->
+        <div class="news-list-header">
+          <span>اخبار ترافیکی</span>
+          <span class="icon">📰</span>
+        </div>
+
+        <!-- Single news item -->
+        <div class="news-item">
+          <div class="news-image">
+            <img src="/naji/img/29.jpg"
+              alt="تقویم" />
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <div class="date">۱۴۰۴/۰۹/۲۹ <span>⟳</span></div>
+              <div class="source">سایت راهور فراجا</div>
+            </div>
+            <a href="#" class="news-title">
+              اخبار ترافیکی لحظه ای 29 آذر | بارش برف و باران در برخی محورها
+            </a>
+          </div>
+        </div>
+
+        <!-- Repeated news items -->
+        <div class="news-item">
+          <div class="news-image">
+            <img src="/naji/img/25.jpg"
+              alt="تقویم" />
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <div class="date">۱۴۰۴/۰۹/۲۵ <span>⟳</span></div>
+              <div class="source">سایت راهور فراجا</div>
+            </div>
+            <a href="#" class="news-title">
+              اخبار ترافیکی لحظه ای 25 آذر | بارش برف و باران در برخی محورها
+            </a>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-image">
+            <img src="/naji/img/24.jpg"
+              alt="تقویم" />
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <div class="date">۱۴۰۴/۰۹/۲۴ <span>⟳</span></div>
+              <div class="source">سایت راهور فراجا</div>
+            </div>
+            <a href="#" class="news-title">
+              اخبار ترافیکی لحظه ای 24 آذر | بارش برف و باران در برخی محورها
+            </a>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-image">
+            <img src="/naji/img/23.jpg"
+              alt="تقویم" />
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <div class="date">۱۴۰۴/۰۹/۲۳ <span>⟳</span></div>
+              <div class="source">سایت راهور فراجا</div>
+            </div>
+            <a href="#" class="news-title">
+              اخبار ترافیکی لحظه ای 23 آذر | بارش باران در برخی محورها
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider section(right) -->
+      <div class="box">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slider images -->
+            <div class="swiper-slide"><img src="img\1.jpg" /></div>
+            <div class="swiper-slide"><img src="img\2.JPG" /></div>
+            <div class="swiper-slide"><img src="img\3.jpg" /></div>
+            <div class="swiper-slide"><img src="img\4.jpg" /></div>
+          </div>
+
+          <!-- Slider navigation buttons -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          <!-- Slider pagination dots -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Services horizontal slider -->
+    <div class="services-wrapper">
+      <!-- Scroll left button -->
+      <button class="nav-btn" onclick="scrollServices(-1)">‹</button>
+
+      <!-- Services list -->
+      <div class="services" id="services">
+        <div class="service-item">
+          <img src="img\null.png">
+          <span>استعلام نمره منفی</span>
+        </div>
+        <div class="service-item">
+          <img src="img\null1.png">
+          <span>رهگیری مدارک سازمانی</span>
+        </div>
+        <div class="service-item">
+          <img src="img\sakha4.png">
+          <span>ثبت نام خدمات الکترونیک انتظامی</span>
+        </div>
+        <div class="service-item">
+          <img src="img\null3.png">
+          <span>سامانه نقل و انتقال اینترنتی خودرو</span>
+        </div>
+        <div class="service-item">
+          <img src="img\null2.png">
+          <span>پرداخت الکترونیکی جرائم</span>
+        </div>
+      </div>
+
+      <!-- Scroll right button -->
+      <button class="nav-btn" onclick="scrollServices(1)">›</button>
+    </div>
+
+    <!-- Footer section -->
+    <div id="footer">
+
+      <!-- Footer columns -->
+
+      <!-- Repeated footer columns -->
+      <div id="container">
+        <h3>مجوز ها</h3>
+        <img src="/naji/img/enamad.png">
+      </div>
+       <hr>
+      <div id="container">
+        <h3>تماس با ما</h3>
+        <a href="/google.com">روابط عمومی شرکت : 02181240104</a><br>
+        <a href="/google.com">پشتیبانی خدمات اینترنتی (سخا ) :
+          02181240090</a><br>
+        <a href="/google.com">ایمیل : info@epolice</a>
+        <a href="/google.com">نشانی: تهران - بلوار میرداماد - بین بزرگراه شهید
+          مدرس و بلوار نلسون ماندلا - پلاک 382</a>
+      </div>
+      <hr>
+      <div id="container">
+        <h3>لینک های مهم</h3>
+        <a href="/google.com">سایت پلیس</a><br>
+        <a href="/google.com">پایگاه اطلاع رسانی دفتر مقام معظم رهبری</a><br>
+        <a href="/google.com">کانال خدمات الکترونیک انتظامی در پیام رسان
+          ایتا</a><br>
+        <a href="/google.com">کانال خدمات الکترونیک انتظامی در پیام رسان
+          سروش</a><br>
+      </div>
+      <hr>
+      <div id="container">
+        <h3>شرکت پژوهش و توسعه ناجی</h3>
+        <a href="/google.com">شرکت پژوهش و توسعه ناجی وابسته به بنیاد تعاون
+          فرماندهی انتظامی جمهوری اسلامی ایران می‌باشد که با جذب نیروهای متخصص
+          داخلی
+          گام‌های ارزشمندی را جهت تحقق و استقرار دولت الکترونیک طی نموده
+          است.</a><br>
+      </div>
+      <!-- End footer -->
+
+      <!-- Main JavaScript file -->
+      <script src="menu.js"></script>
+
+    </body>
+  </html>
